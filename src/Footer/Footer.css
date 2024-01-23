@@ -1,0 +1,20 @@
+footer{
+    background-color: rgb(31, 31, 31);
+    height: 240px;
+}
+.all{
+    height: 200px;
+}
+.details{
+    width: 20%;
+    margin-right: 90px;
+}
+.details p{
+    margin: 0px 0px;
+}
+.logo{
+    margin-left: 90px;
+}
+.right{
+    color: rgb(163, 163, 163);
+}

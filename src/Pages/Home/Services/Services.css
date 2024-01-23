@@ -1,0 +1,48 @@
+.card-container img{
+    width: 250px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: max-content;
+    margin: 50px auto;
+}
+.cards{
+    width: 330px;
+    height: max-content;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.cards h3{
+    padding-top: 6px;
+}
+.checkout{
+    margin-top: 6px;
+    margin-bottom: 12px;
+    color: white;
+    border: none;
+    background-color: #ff006a;
+    padding: 6px 33px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.checkout:hover{
+    color: black;
+}
+.ele p{
+    margin: 8px 0px;
+}
