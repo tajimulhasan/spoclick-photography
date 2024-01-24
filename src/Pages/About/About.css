@@ -1,0 +1,11 @@
+.profile img{
+    width: 170px;
+}
+.paragraph {
+   display: flex;
+   justify-content: center;
+
+}
+.paragraph p{
+    width: 50%;
+}

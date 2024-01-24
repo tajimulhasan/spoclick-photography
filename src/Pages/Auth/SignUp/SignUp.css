@@ -1,0 +1,10 @@
+form{
+    width: 300px;
+    margin: 0px auto;
+}
+.signup-button{
+    margin-top: 6px;
+    width: 300px;
+    background-color: #ff006a;
+    border: none;
+}

@@ -5,7 +5,7 @@ const Footer = () => {
     return (
        <footer className=''>
          <div className="all d-flex justify-content-between align-items-center text-center">
-         <div className="logo">
+         <div className="logoF">
                   <img src={image} alt="" />
             </div>
             <div className="details d-flex justify-content-between align-items-center text-center text-light">
@@ -14,7 +14,7 @@ const Footer = () => {
                <p>Pricing</p>
             </div>
          </div>
-         <p className='m-0 text-center right'>All right reserved © SPOCLICK Photograpy</p>
+         <p className='m-0 text-center right'>All right reserved © SPOCLICK Photography</p>
        </footer>
     );
 };

@@ -1,6 +1,7 @@
 footer{
     background-color: rgb(31, 31, 31);
     height: 240px;
+    margin-top: 90px;
 }
 .all{
     height: 200px;
@@ -12,8 +13,11 @@ footer{
 .details p{
     margin: 0px 0px;
 }
-.logo{
+.logoF{
     margin-left: 90px;
+}
+.logoF img{
+        width: 200px;
 }
 .right{
     color: rgb(163, 163, 163);

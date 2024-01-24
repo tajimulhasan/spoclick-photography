@@ -1,0 +1,16 @@
+.p-question{
+    width: 700px;
+    height: max-content;
+    padding: 12px;
+    margin: 24px;
+    background-color: #fff6fa;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.question h2{
+
+}
