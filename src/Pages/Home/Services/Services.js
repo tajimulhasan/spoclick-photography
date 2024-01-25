@@ -3,7 +3,12 @@ import image1 from '../../../images/1.jpg';
 import image2 from '../../../images/2.jpg';
 import image3 from '../../../images/3.jpg';
 import './Services.css';
+import { useNavigate } from 'react-router-dom';
 const Services = () => {
+    const navigate = useNavigate();
+    const handleCheck = () =>{
+      navigate('/checkout')
+    }
     return (
         <div className='card-container'>
             <div className="cards text-center">
@@ -18,7 +23,7 @@ const Services = () => {
                 <p className='d-flex align-items-center'><svg className='me-2' xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#ff006a" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>Access to an online gallery.</p>
                 </div>
                 </div>
-                <button className='checkout fw-bold'>Checkout</button>
+                <button onClick={handleCheck} className='checkout fw-bold'>Checkout</button>
             </div>
             <div className="cards text-center">
                 <img src={image2} alt="" />
@@ -32,7 +37,7 @@ const Services = () => {
                 <p className='d-flex align-items-center'><svg className='me-2' xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#ff006a" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg> To purchase professional prints</p>
                 </div>
                 </div>
-                <button className='checkout fw-bold'>Checkout</button>
+                <button onClick={handleCheck} className='checkout fw-bold'>Checkout</button>
             </div>
             <div className="cards text-center">
                 <img src={image3} alt="" />
@@ -46,7 +51,7 @@ const Services = () => {
                 <p className='d-flex align-items-center'><svg className='me-2' xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#ff006a" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"></path></svg>Professional prints included</p>
                 </div>
                 </div>
-                <button className='checkout fw-bold'>Checkout</button>
+                <button onClick={handleCheck} className='checkout fw-bold'>Checkout</button>
             </div>
         </div>
     );
