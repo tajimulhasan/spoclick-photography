@@ -15,10 +15,9 @@ const SignUp = () => {
   const [
     createUserWithEmailAndPassword,
     user,
-    loading,
     error1,
   ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
-  const [updateProfile, updating] = useUpdateProfile(auth);
+  const [updateProfile] = useUpdateProfile(auth);
   const navigate = useNavigate();
 if(user){
  navigate('/');
@@ -48,7 +47,6 @@ if(password.length < 6){
    const success = await updateProfile({ displayName: name});
  if (success) {
    console.log('Updated profile');
-   
 
  }
   }
