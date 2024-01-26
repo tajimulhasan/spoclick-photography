@@ -2,7 +2,7 @@ import React from 'react';
 import './Blog.css';
 const Blog = () => {
     return (
-       <div className="main-parent d-flex justify-content-center">
+       <div className="main-parent d-flex justify-content-center mt-5">
          <div>
                 <div className="p-question">
                 <div className="question">

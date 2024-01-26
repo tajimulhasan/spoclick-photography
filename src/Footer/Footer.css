@@ -5,6 +5,10 @@ footer{
 }
 .all{
     height: 200px;
+    display: flex;
+    justify-content: space-between;
+     align-items: center; 
+     text-align:center;
 }
 .details{
     width: 20%;
@@ -21,4 +25,21 @@ footer{
 }
 .right{
     color: rgb(163, 163, 163);
+}
+@media only screen and (max-width: 576px){
+    .logoF{
+        margin-left: 0px;
+    }
+    .logoF img{
+        width: 150px;
+}
+.details{
+    width: 60%;
+    margin-right: 0px;
+}
+.all{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 }

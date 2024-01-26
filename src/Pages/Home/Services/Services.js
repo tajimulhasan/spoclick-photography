@@ -10,7 +10,7 @@ const Services = () => {
       navigate('/checkout')
     }
     return (
-        <div className='card-container'>
+        <div className='card-container mt-5'>
             <div className="cards text-center">
                 <img src={image1} alt="" />
                 <h3>Basic $50</h3>

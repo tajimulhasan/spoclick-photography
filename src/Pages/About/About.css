@@ -9,3 +9,8 @@
 .paragraph p{
     width: 50%;
 }
+@media only screen and (max-width: 576px){
+    .paragraph p{
+        width: 70%;
+    }
+}

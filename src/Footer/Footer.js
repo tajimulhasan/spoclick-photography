@@ -4,7 +4,7 @@ import image from '../images/spocclick.png';
 const Footer = () => {
     return (
        <footer className=''>
-         <div className="all d-flex justify-content-between align-items-center text-center">
+         <div className="all">
          <div className="logoF">
                   <img src={image} alt="" />
             </div>
