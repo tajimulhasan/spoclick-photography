@@ -17,7 +17,7 @@ const SignUp = () => {
     user,
     loading,
     error1,
-  ] = useCreateUserWithEmailAndPassword(auth);
+  ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
   const [updateProfile, updating] = useUpdateProfile(auth);
   const navigate = useNavigate();
 if(user){
@@ -53,7 +53,7 @@ if(password.length < 6){
  }
   }
     return (
-        <div className='mt-4'>
+        <div className='sign'>
               <h1 className='text-center'>Signup</h1>
             <Form onSubmit={hadleSubmit}>
       <Form.Group className="mb-3" controlId="formBasicEmail">

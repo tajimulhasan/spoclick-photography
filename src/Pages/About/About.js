@@ -3,7 +3,7 @@ import './About.css';
 import profile from '../../images/111.png';
 const About = () => {
     return (
-        <div className='text-center mt-5'>
+        <div className='text-center sign'>
             <div className="profile">
                 <img src={profile} alt="" />
             </div>

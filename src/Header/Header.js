@@ -11,10 +11,10 @@ const Header = () => {
         signOut(auth);
       };
       const [menuClick, setMenuClick] = useState(false);
-   
+   console.log(user);
     return (
         <header>
-                 <nav>
+                 <nav className='header-container'>
                       <div className="logo">
                             <Link to='/home'><img src={logo} alt="" /></Link>
                       </div>
@@ -34,6 +34,11 @@ const Header = () => {
                                 <li><Link className='ancore' style={{display: 'none'}} to='/signup'><span className='signup-btn'>Signup</span></Link></li>
                                 : 
                                 <li><Link className='ancore' to='/signup'><span className='signup-btn'>Signup</span></Link></li>
+                            }
+                            {
+                                user ? 
+                                <li><p className='text-light m-0'><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#ff006a" viewBox="0 0 256 256"><path d="M234.38,210a123.36,123.36,0,0,0-60.78-53.23,76,76,0,1,0-91.2,0A123.36,123.36,0,0,0,21.62,210a12,12,0,1,0,20.77,12c18.12-31.32,50.12-50,85.61-50s67.49,18.69,85.61,50a12,12,0,0,0,20.77-12ZM76,96a52,52,0,1,1,52,52A52.06,52.06,0,0,1,76,96Z"></path></svg>{user.displayName}</p></li>
+                                : ""
                             }
                         </ul>
                         <div className="options">

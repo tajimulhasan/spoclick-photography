@@ -6,10 +6,10 @@ import image4 from '../../../images/d.jpg';
 import image5 from '../../../images/e.jpg';
 import image6 from '../../../images/f.jpg';
 import { Carousel } from 'react-bootstrap';
-
+import './Banner.css';
 const Banner = () => {
     return (
-        <Carousel data-bs-theme="dark">
+        <Carousel className='carousel-container' data-bs-theme="dark">
         <Carousel.Item>
           <img
             className="d-block w-100"
