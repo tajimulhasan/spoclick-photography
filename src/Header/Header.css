@@ -98,7 +98,8 @@ nav ul li{
 
   .mobile-menu-element ul {
     height: 20rem;
-    width: 200px; 
+    width: 100%; 
+    padding: 33px;
     margin: 0px auto;
     display: flex;
     justify-content: space-evenly;

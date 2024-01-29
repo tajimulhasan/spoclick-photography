@@ -20,7 +20,7 @@ const SignUp = () => {
   const [updateProfile] = useUpdateProfile(auth);
   const navigate = useNavigate();
 if(user){
- navigate('/');
+ navigate('/home');
 }
   const handleName = e =>{
     setName(e.target.value);
